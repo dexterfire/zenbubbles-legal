@@ -1,0 +1,205 @@
+<!doctype html>
+<html lang="ru">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Политика конфиденциальности — Волшебные пузыри Зен / Magic Bubbles Zen</title>
+<meta name="description" content="Политика конфиденциальности игры Magic Bubbles Zen (ru.glfire.zenbubbles): какие данные обрабатывает приложение и рекламный SDK, права пользователя, контакт.">
+<style>
+  :root { color-scheme: dark; --bg:#0a0920; --card:#151233; --ink:#f3f0ff; --mute:#a9a3cf; --acc:#ffd66b; --line:rgba(255,255,255,.14); }
+  * { box-sizing: border-box; }
+  body { margin:0; background:var(--bg); color:var(--ink); font:16px/1.6 system-ui,-apple-system,"Segoe UI",sans-serif; padding:24px 16px 72px; }
+  main { max-width: 760px; margin: 0 auto; }
+  h1 { font-size: 26px; line-height:1.2; margin: 0 0 6px; }
+  h2 { font-size: 19px; margin: 32px 0 10px; color: var(--acc); }
+  h3 { font-size: 16px; margin: 20px 0 6px; }
+  p, li { margin: 0 0 10px; }
+  ul { padding-left: 22px; }
+  .meta { color: var(--mute); font-size: 14px; margin: 0 0 20px; }
+  .box { background: var(--card); border:1px solid var(--line); border-radius: 14px; padding: 14px 16px; margin: 0 0 16px; }
+  table { width:100%; border-collapse: collapse; font-size: 15px; margin: 0 0 12px; }
+  th, td { text-align:left; padding: 8px 10px; border-bottom:1px solid var(--line); vertical-align: top; }
+  th { color: var(--mute); font-weight:600; }
+  a { color: #9fd0ff; }
+  code { background:#201b45; padding:1px 6px; border-radius:6px; font-size: 14px; }
+  nav.lang { display:flex; gap:10px; margin: 0 0 22px; }
+  nav.lang a { border:1px solid var(--line); border-radius: 999px; padding: 6px 14px; text-decoration:none; color: var(--ink); font-size:14px; }
+  nav.lang a[aria-current="true"] { background: var(--acc); color:#2a1600; border-color: transparent; font-weight:700; }
+  hr { border:0; border-top:1px solid var(--line); margin: 40px 0; }
+</style>
+</head>
+<body>
+<main>
+  <nav class="lang"><a href="#ru" aria-current="true">Русский</a><a href="#en">English</a></nav>
+
+  <section id="ru" lang="ru">
+    <h1>Политика конфиденциальности</h1>
+    <p class="meta">Игра «Волшебные пузыри Зен» (Magic Bubbles Zen), пакет <code>ru.glfire.zenbubbles</code>.<br>
+      Редакция от 17 ноября 2026 года, версия 1.0.</p>
+
+    <div class="box">
+      <p><strong>Коротко.</strong> Игра не требует регистрации и не собирает ваши имя, телефон, почту, контакты,
+      геолокацию, фото или микрофон. Рекорд и настройки хранятся только на вашем устройстве.
+      Данные обрабатывает рекламный SDK Яндекса (рекламный идентификатор устройства, IP-адрес, модель
+      устройства и версия системы, статистика показов) — это нужно, чтобы показывать рекламу и считать её.</p>
+    </div>
+
+    <h2>1. Кто обрабатывает данные</h2>
+    <p>Разработчик и оператор персональных данных — GLFire, автор игры «Волшебные пузыри Зен»
+      (физическое лицо, Российская Федерация).
+      Контакт для любых вопросов, связанных с этой политикой и вашими данными, — сообщество игры:
+      <a href="https://vk.com/club137821447">vk.com/club137821447</a>.</p>
+
+    <h2>2. Какие данные обрабатывает сама игра</h2>
+    <ul>
+      <li><strong>Не обрабатывает персональные данные.</strong> Нет аккаунтов, нет входа, нет серверов
+        разработчика, нет аналитики с идентификаторами пользователя.</li>
+      <li><strong>Сохраняет на устройстве:</strong> личный рекорд, выбранную тему, настройки звука и анимаций,
+        признак «подсказка показана». Эти данные лежат в локальном хранилище приложения
+        (WebView/localStorage), никуда не передаются и удаляются вместе с данными приложения
+        или при его удалении.</li>
+      <li><strong>Не запрашивает доступы</strong> к контактам, камере, микрофону, файлам, точной
+        геолокации. Разрешения приложения: доступ в интернет, состояние сети, вибрация.</li>
+    </ul>
+
+    <h2>3. Реклама и рекламный SDK</h2>
+    <p>Игра бесплатная и показывается с рекламой. Для показа рекламы используется
+      <strong>Yandex Mobile Ads SDK</strong> (ООО «Яндекс», Российская Федерация) — рекламная сеть РСЯ.</p>
+    <table>
+      <tr><th>Что обрабатывает SDK</th><th>Зачем</th></tr>
+      <tr><td>Рекламный идентификатор устройства (GAID/OAID), IP-адрес, модель устройства, версия ОС, язык, версия приложения</td>
+          <td>подбор и показ рекламы, ограничение частоты показов, защита от накрутки, статистика и расчёт доходов</td></tr>
+      <tr><td>Сведения о показах и нажатиях на рекламу</td>
+          <td>отчётность рекламной сети и рекламодателей</td></tr>
+    </table>
+    <p>Данные передаются в ООО «Яндекс» в объёме, необходимом для показа рекламы. Документы Яндекса:
+      <a href="https://yandex.ru/legal/confidential/">политика конфиденциальности Яндекса</a> и
+      <a href="https://yandex.ru/legal/adsdk/">условия использования рекламного SDK</a>.</p>
+    <p><strong>Персонализированная или нет.</strong> Если вы согласились на персонализированную рекламу,
+      реклама подбирается по рекламному идентификатору. Если отказались — показывается
+      неперсонализированная реклама, игра работает так же. Сменить выбор можно в настройках игры.</p>
+    <p><strong>Как отказаться от персонализации на уровне устройства.</strong> Android: «Настройки» →
+      «Google» → «Реклама» → «Удалить рекламный идентификатор» (на устройствах без сервисов Google
+      настройка находится в параметрах системы соответствующего производителя). Также помогает
+      отключение интернета: игра полностью работает офлайн, реклама в этом случае не показывается.</p>
+
+    <h2>4. Правовые основания и сроки</h2>
+    <ul>
+      <li>Персонализированная реклама — ваше согласие (ст. 6 Федерального закона № 152-ФЗ «О персональных данных»).</li>
+      <li>Неперсонализированная реклама, защита от мошенничества и статистика — законный интерес
+        оператора и рекламной сети.</li>
+      <li>Сроки хранения определяет Яндекс как самостоятельный оператор — см. его политику.
+        Разработчик игру-данные не хранит и не получает: у него нет серверов и базы пользователей.</li>
+    </ul>
+
+    <h2>5. Ваши права</h2>
+    <p>Вы вправе получить информацию об обработке ваших данных, потребовать их уточнения, блокирования
+      или уничтожения, а также отозвать согласие. Напишите в сообщество игры
+      <a href="https://vk.com/club137821447">vk.com/club137821447</a> — ответ в течение 10 рабочих дней.
+      Отзыв согласия на персонализированную рекламу не мешает играть.</p>
+
+    <h2>6. Дети</h2>
+    <p>Игра имеет возрастную категорию 12+ и не адресована детям младше 12 лет. Мы сознательно
+      не собираем данные детей; если вы считаете, что данные ребёнка попали в рекламную сеть,
+      напишите нам — поможем с удалением.</p>
+
+    <h2>7. Передача данных третьим лицам</h2>
+    <p>Кроме рекламной сети Яндекса, данные никому не передаются. Мы не продаём и не передаём
+      персональные данные третьим лицам для иных целей. Трансграничная передача не осуществляется
+      разработчиком; Яндекс обрабатывает данные в соответствии со своей политикой.</p>
+
+    <h2>8. Изменения политики</h2>
+    <p>Актуальная редакция всегда доступна по этому адресу. При существенных изменениях
+      (новый SDK, новые данные) обновляются дата и версия в начале страницы, а в игре появляется
+      уведомление при первом запуске новой версии.</p>
+
+    <h2>9. Контакт</h2>
+    <p>Разработчик: GLFire · <a href="https://vk.com/club137821447">vk.com/club137821447</a> ·
+      игра: «Волшебные пузыри Зен», пакет <code>ru.glfire.zenbubbles</code>.</p>
+  </section>
+
+  <hr>
+
+  <section id="en" lang="en">
+    <h1>Privacy Policy</h1>
+    <p class="meta">Game “Magic Bubbles Zen”, package <code>ru.glfire.zenbubbles</code>.<br>
+      Version of 17 November 2026, revision 1.0.</p>
+
+    <div class="box">
+      <p><strong>In short.</strong> The game needs no sign-up and does not collect your name, phone number,
+      e-mail, contacts, location, photos or microphone. Your record and settings stay on your device.
+      The advertising SDK of Yandex processes device advertising ID, IP address, device model and OS
+      version, and ad impression statistics — that is what ad serving and reporting require.</p>
+    </div>
+
+    <h2>1. Who processes the data</h2>
+    <p>The developer and data controller is GLFire, the author of “Magic Bubbles Zen” (natural person,
+      Russian Federation). Contact for anything about this policy or your data: the game community
+      <a href="https://vk.com/club137821447">vk.com/club137821447</a>.</p>
+
+    <h2>2. What the game itself processes</h2>
+    <ul>
+      <li><strong>No personal data.</strong> No accounts, no sign-in, no developer servers, no analytics
+        tied to a user identifier.</li>
+      <li><strong>Stored on the device only:</strong> your record, chosen theme, sound and animation
+        settings, a “hint shown” flag. They live in the app’s local storage (WebView/localStorage),
+        are never transmitted and are removed with the app’s data or on uninstall.</li>
+      <li><strong>No sensitive permissions:</strong> no contacts, camera, microphone, files, precise
+        location. App permissions: internet access, network state, vibration.</li>
+    </ul>
+
+    <h2>3. Ads and the advertising SDK</h2>
+    <p>The game is free and supported by ads served through <strong>Yandex Mobile Ads SDK</strong>
+      (Yandex LLC, Russian Federation; ad network RSY).</p>
+    <table>
+      <tr><th>Processed by the SDK</th><th>Purpose</th></tr>
+      <tr><td>Device advertising ID (GAID/OAID), IP address, device model, OS version, language, app version</td>
+          <td>ad selection and delivery, frequency capping, fraud prevention, statistics and revenue reporting</td></tr>
+      <tr><td>Ad impression and click events</td>
+          <td>reporting for the ad network and advertisers</td></tr>
+    </table>
+    <p>The data is transferred to Yandex LLC only to the extent required to serve ads. See
+      <a href="https://yandex.ru/legal/confidential/?lang=en">Yandex privacy policy</a> and
+      <a href="https://yandex.ru/legal/adsdk/?lang=en">Yandex Mobile Ads SDK terms</a>.</p>
+    <p><strong>Personalised or not.</strong> With your consent ads are personalised using the advertising
+      identifier; if you decline, non-personalised ads are shown and the game works the same.
+      You can change the choice in the game settings.</p>
+    <p><strong>Device-level opt-out.</strong> Android: Settings → Google → Ads → “Delete advertising ID”
+      (on devices without Google services the option lives in the vendor’s system settings).
+      Playing offline also works: the whole game is local, and no ads are loaded without a network.</p>
+
+    <h2>4. Legal bases and retention</h2>
+    <ul>
+      <li>Personalised ads — your consent (Art. 6 of Federal Law No. 152-FZ “On Personal Data”).</li>
+      <li>Non-personalised ads, fraud prevention and statistics — the legitimate interest of the
+        controller and of the ad network.</li>
+      <li>Retention periods are defined by Yandex as an independent controller — see its policy.
+        The developer keeps no user data: there are no servers and no user database.</li>
+    </ul>
+
+    <h2>5. Your rights</h2>
+    <p>You may request information about processing, ask for rectification, blocking or erasure, and
+      withdraw consent. Write to <a href="https://vk.com/club137821447">vk.com/club137821447</a> —
+      we answer within 10 business days. Withdrawing consent for personalised ads does not affect play.</p>
+
+    <h2>6. Children</h2>
+    <p>The game is rated 12+ and is not directed to children under 12. We do not knowingly collect
+      children’s data; if you believe a child’s data reached the ad network, contact us and we will
+      help with erasure.</p>
+
+    <h2>7. Third parties</h2>
+    <p>Apart from the Yandex ad network, no data is shared. We do not sell personal data. The developer
+      does not perform cross-border transfers; Yandex processes data under its own policy.</p>
+
+    <h2>8. Changes</h2>
+    <p>The current revision is always available at this address. For material changes (a new SDK, new
+      data) the date and revision above are updated and the game shows a notice on the first launch
+      of the new version.</p>
+
+    <h2>9. Contact</h2>
+    <p>Developer: GLFire · <a href="https://vk.com/club137821447">vk.com/club137821447</a> ·
+      game “Magic Bubbles Zen”, package <code>ru.glfire.zenbubbles</code>.</p>
+  </section>
+</main>
+</body>
+</html>
